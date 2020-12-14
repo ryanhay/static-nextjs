@@ -1,0 +1,9 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+@import 'carbon-components/scss/globals/scss/styles.scss';
+
+.title {
+  font-weight: 900;
+  color: aqua;
+}
