@@ -18,7 +18,7 @@ const Index: React.FC<IndexProps> = ({title, description, data}) => {
 
   return (
     <Layout title={title} description={description}>
-      <h1 className="title bg-red-200">My First Blogsss ✍ </h1>
+      <h1 className="title bg-red-200">My First Blogs ✍ </h1>
       <ClickableTile>Testinggg</ClickableTile>
       <div>
         <ul>

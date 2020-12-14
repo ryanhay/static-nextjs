@@ -5,10 +5,9 @@
   "scripts": {
     "dev": "next dev",
     "preview": "serve out",
-    "start": "next start",
-    "deploy": "gh-pages -d out",
-    "build": "next build && next export && touch out/.nojekyll",
-    "build-and-deploy": "yarn build && echo 'test' > out/.nojekyll && gh-pages -d out"
+    "deploy": "gh-pages -d out -t true",
+    "build": "next build && next export",
+    "build-and-deploy": "yarn build && yarn deploy"
   },
   "dependencies": {
     "carbon-components": "^10.25.0",
